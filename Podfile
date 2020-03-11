@@ -10,8 +10,5 @@ use_frameworks!
 
 
 target 'SampleApp' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  # Pods for SampleApp
   pod 'Aka-MAP'
-
 end

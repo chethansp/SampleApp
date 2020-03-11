@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SampleApp"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "A short description of SampleApp."
 
   s.description  = <<-DESC
@@ -30,9 +30,9 @@ Pod::Spec.new do |s|
 
   s.author       = { "Pair" => "chethan@io.com" }
 
-  s.platform     = :ios, "13.0"
+  s.platform     = :ios, "10.0"
 
-  s.source       = { :git => "https://chethansp@github.com/chethansp/SampleApp.git",
+  s.source       = { :git => "ssh://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/msl-starling-ios-common",
                      :tag => "v#{s.version}"  }
 
   s.source_files  = "SampleApp/**/*.{swift,h,m}"
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
 
   s.exclude_files = ['SampleApp/Pods/**/*.{swift,h,m}']
 
-  s.dependency 'Aka-MAP'
+  s.dependency 'Aka-MAP', '20.11.10'
 
   s.frameworks  = 'UIKit', 'WebKit'
 
