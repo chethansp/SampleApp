@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SampleApp"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A short description of SampleApp."
 
   s.description  = <<-DESC
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "10.0"
 
-  s.source       = { :git => "ssh://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/msl-starling-ios-common",
+  s.source       = { :git => "https://chethansp@github.com/chethansp/SampleApp.git",
                      :tag => "v#{s.version}"  }
 
   s.source_files  = "SampleApp/**/*.{swift,h,m}"
