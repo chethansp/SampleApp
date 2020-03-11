@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SampleApp"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "A short description of SampleApp."
 
   s.description  = <<-DESC
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
 
   s.exclude_files = ['SampleApp/Pods/**/*.{swift,h,m}']
 
-  s.dependency 'Aka-MAP', '20.11.10'
+  s.dependency 'Aka-MAP'
 
   s.frameworks  = 'UIKit', 'WebKit'
 
