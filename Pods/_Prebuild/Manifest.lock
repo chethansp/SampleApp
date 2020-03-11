@@ -1,0 +1,23 @@
+PODS:
+  - Aka-Common (21.12.1)
+  - Aka-MAP (21.12.2):
+    - Aka-Common (~> 21.12.1)
+    - Aka-MAP/Core (= 21.12.2)
+  - Aka-MAP/Core (21.12.2):
+    - Aka-Common (~> 21.12.1)
+
+DEPENDENCIES:
+  - Aka-MAP
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Aka-Common
+    - Aka-MAP
+
+SPEC CHECKSUMS:
+  Aka-Common: bc728035fab4bd4719deadaa81fc4e39d49b01e2
+  Aka-MAP: db0692786c70d33c8ad163e980230091b5f92204
+
+PODFILE CHECKSUM: dcb6bf0381e39082dca51c8877ed325cf407cdfd
+
+COCOAPODS: 1.9.0
