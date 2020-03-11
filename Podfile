@@ -8,6 +8,9 @@ plugin 'cocoapods-binary'
 all_binary!
 use_frameworks!
 
+workspace '../SampleApp'
+
+project 'SampleApp.xcodeproj'
 
 target 'SampleApp' do
   pod 'Aka-MAP'
